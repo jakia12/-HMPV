@@ -2,6 +2,14 @@
 <---     Mobile Navigation      -->
 <--- -------------------------- -*/
 /* Mobile - 575px */
+@media only screen and (max-width: 768px) {
+  #cs-navigation .cs-button-solid {
+    /* display: none; */
+
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   #cs-navigation .cs-container {
     height: 100% !important;
@@ -18,6 +26,7 @@
   #cs-navigation .cs-button-solid {
     font-size: 12px !important;
     padding: 0 5px !important;
+    display: none;
   }
 
   #cs-navigation .cs-button-solid img {
@@ -315,7 +324,7 @@
     border-width: 2px 2px 2px 2px;
     border-radius: 10px 10px 10px 10px;
 
-    display: flex;
+    display: none;
     align-items: center;
     column-gap: 5px;
     font-size: 18px;
